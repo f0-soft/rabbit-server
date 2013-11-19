@@ -1,0 +1,14 @@
+{
+    "name": "f0.rabbit",
+    "version": "5.0.0",
+    "private": true,
+
+    "main": "lib/index.js",
+
+    "dependencies": {
+    "underscore": "",
+        "async": "",
+        "mongodb": "",
+        "redis": ""
+    }
+}
