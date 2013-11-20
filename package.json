@@ -9,6 +9,7 @@
     "underscore": "",
         "async": "",
         "mongodb": "",
-        "redis": ""
+        "redis": "",
+        "dnode": ""
     }
 }
