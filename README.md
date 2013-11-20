@@ -8,6 +8,8 @@ nodeunit test.js
 ## init( config , callback )
 Функци инициализации и подключения к БД + запускает Rabbit
 * config - конфиг,
+    * config.port - порт Rabbit-server,
+    * config.host - host Rabbit-server,
     * config.mongo - конфиг mongo,
     * config.redis - конфиг редис,
     * config.gPrefixCol - справочник префиксов путей;
