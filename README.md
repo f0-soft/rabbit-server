@@ -113,7 +113,13 @@ nodeunit test.js
 
     ```
      gArrayFields:{
-             testCustomers: {m_id:1},
+             testCustomers: {
+                m_id:1,
+                mname: {
+                    name: 1,
+                    lastname:1
+                }
+             },
              testContracts:{ c_id: 1},
              testBills: {contr_id:1}
          }

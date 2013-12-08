@@ -89,7 +89,7 @@ module.exports  = {
         }
     },
     gArrayFields:{
-        testCustomers: {m_id:1, m_id2:1},
+        testCustomers: {m_id:1, m_id2:1, mname: {a:1, b:1}},
         testContracts:{ c_id: 1},
         testBills: {contr_id:1}
     },
